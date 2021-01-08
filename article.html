@@ -97,11 +97,23 @@
           <aside id="categories" class="card">
             <h2>Categories</h2>
             <ul class="list">
-              <li><a href="#"><i class="fas fa-chevron-right"></i> Sports</a></li>
-              <li><a href="#"><i class="fas fa-chevron-right"></i> Entertainment</a></li>
-              <li><a href="#"><i class="fas fa-chevron-right"></i> Technology</a></li>
-              <li><a href="#"><i class="fas fa-chevron-right"></i> Fashion</a></li>
-              <li><a href="#"><i class="fas fa-chevron-right"></i> Shopping</a></li>
+              <li>
+                <a href="#"><i class="fas fa-chevron-right"></i> Sports</a>
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fas fa-chevron-right"></i> Entertainment</a
+                >
+              </li>
+              <li>
+                <a href="#"><i class="fas fa-chevron-right"></i> Technology</a>
+              </li>
+              <li>
+                <a href="#"><i class="fas fa-chevron-right"></i> Fashion</a>
+              </li>
+              <li>
+                <a href="#"><i class="fas fa-chevron-right"></i> Shopping</a>
+              </li>
             </ul>
           </aside>
 
@@ -132,8 +144,8 @@
         <div>
           <h3>Email Newsletter</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          <form>
-            <input type="email" placeholder="Enter Email" />
+          <form name="contact" method="POST" data-netlify="true">
+            <input type="email" name="email" placeholder="Enter Email" />
             <input type="submit" value="Subscribe" class="btn btn-primary" />
           </form>
         </div>
